@@ -7,14 +7,14 @@ class BarData {
     DataForCharts(
       id: 0,
       name: 'Mon',
-      yAxis: 15,
-      color: Color(0xff19bfff),
+      yAxis: 21,
+      color: Color(0xfd19bfdf),
     ),
     DataForCharts(
       name: 'Tue',
       id: 1,
       yAxis: -12,
-      color: Color(0xffff4d94),
+      color: Color(0xdfff4d94),
     ),
     DataForCharts(
       name: 'Wed',
@@ -26,13 +26,13 @@ class BarData {
       name: 'Thu',
       id: 3,
       yAxis: 10,
-      color: Color(0xffffdd80),
+      color: Color(0xfa51dd80),
     ),
     DataForCharts(
       name: 'Fri',
       id: 4,
       yAxis: -5,
-      color: Color(0xff2bdb90),
+      color: Color(0xf12bcbf0),
     ),
     DataForCharts(
       name: 'Sat',
@@ -42,9 +42,9 @@ class BarData {
     ),
     DataForCharts(
       name: 'Sun',
-      id: 6,
+      id: 13,
       yAxis: 5,
-      color: Color(0xffff4d94),
+      color: Color(0xafff8d94),
     ),
   ];
 }
