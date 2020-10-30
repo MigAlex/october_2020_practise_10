@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:october_2020_practise_10/screens/bar_chart_screen.dart';
+
+import 'screen_exporter.dart';
+
 
 class Home extends StatelessWidget {
   @override
@@ -8,8 +10,10 @@ class Home extends StatelessWidget {
         body: Padding(
           padding: const EdgeInsets.all(8),
           child: PageView(
+            scrollDirection: Axis.horizontal,
             children: [
               BarChartScreen(),
+              LineChartPage(),
             ],
           ),
         ),
