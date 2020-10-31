@@ -13,7 +13,9 @@ class Home extends StatelessWidget {
             scrollDirection: Axis.horizontal,
             children: [
               BarChartScreen(),
-              LineChartPage(),
+              LineChartScreen(),
+              PieChartScreen()
+
             ],
           ),
         ),
