@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:october_2020_practise_10/custom_widgets/custom_line_chart.dart';
 
-class LineChartPage extends StatelessWidget {
+class LineChartScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) => Card(
         elevation: 4,
